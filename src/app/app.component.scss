@@ -92,7 +92,8 @@
   }
 
   .navbar-default .navbar-brand {
-    color: #FFFFFF;
+    background: linear-gradient(to top, #ff6600 0%, #ffcc00 100%);
+    // color: #FFFFFF;
   }
 
   #navBarSearchForm input[type=text] {

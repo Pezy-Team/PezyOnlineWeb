@@ -25,13 +25,13 @@ export class AppComponent {
   get modalFormElegantPassword() {
     return this.validatingForm.get('modalFormElegantPassword');
   }
-  
+
   imagesWithHeading = [
-    { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg", description: "Image 1" },
-    { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg", description: "Image 2" },
-    { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(65).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg", description: "Image 3" },
-    { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(67).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg", description: "Image 4" },
-    { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(68).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg", description: "Image 5" },
+    { img: "assets/img/Logo.png", thumb: "assets/img/Logo.png", description: "Image 1" },
+    { img: "htassets/img/Logo.png", thumb: "assets/img/Logo.png", description: "Image 2" },
+    { img: "assets/img/Logo.png", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(65).jpg", description: "Image 3" },
+    { img: "assets/img/Logo.png", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg", description: "Image 4" },
+    { img: "assets/img/Logo.png", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(68).jpg", description: "Image 5" },
     { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(64).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(64).jpg", description: "Image 6" },
     { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(69).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(69).jpg", description: "Image 7" },
     { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(59).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(59).jpg", description: "Image 8" },
