@@ -25,7 +25,7 @@ export class AppComponent {
   get modalFormElegantPassword() {
     return this.validatingForm.get('modalFormElegantPassword');
   }
-
+  
   imagesWithHeading = [
     { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(63).jpg", description: "Image 1" },
     { img: "https://mdbootstrap.com/img/Mockups/Lightbox/Original/img%20(66).jpg", thumb: "https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(66).jpg", description: "Image 2" },
