@@ -7,10 +7,12 @@ import { AppComponent } from './app.component';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
 // For MDB Angular Free
 import { CarouselModule, WavesModule } from 'angular-bootstrap-md'
+import { CatagoryListComponent } from './catagory-list/catagory-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CatagoryListComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,7 @@ import { CarouselModule, WavesModule } from 'angular-bootstrap-md'
     MDBBootstrapModule.forRoot()
   ],
   providers: [],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent,CatagoryListComponent],
   schemas: [NO_ERRORS_SCHEMA]
 })
 export class AppModule { }
