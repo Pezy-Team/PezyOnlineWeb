@@ -46,9 +46,13 @@ export class CatagoryListComponent implements OnInit {
       img: 'https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg'
     },
   ];
+
   slides: any = [[]];
   chunk(arr, chunkSize) {
     let R = [];
+    for (let i = 0, len = arr.length; i < len; i += chunkSize) {
+      R.push(arr.slice(i, i + chunkSize));
+    }
     for (let i = 0, len = arr.length; i < len; i += chunkSize) {
       R.push(arr.slice(i, i + chunkSize));
     }
@@ -56,6 +60,6 @@ export class CatagoryListComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.slides = this.chunk(this.cards, 6);
+    this.slides = this.chunk(this.cards, 12);
   }
 }

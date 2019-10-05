@@ -2,7 +2,6 @@
     font-family            : -apple-system, Kanit, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size              : 14px;
     color                  : #333;
-    box-sizing             : border-box;
     -webkit-font-smoothing : antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -160,7 +159,7 @@
     background-color: #ffffff;
   }
 
-  #warm-flame-gradient{
+  .warm-flame-gradient{
     background-image: linear-gradient(to top, #ffa101, #ff9200 7%, #ff8100 17%, #ff7500 30%, #ff6e00 49%, #ff6d00) !important;
   }
 

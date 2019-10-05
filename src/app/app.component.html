@@ -19,9 +19,7 @@
   </ul>
   <ul class="navbar-nav ml-auto">
     <li class="nav-item">
-      <button type="button" class="btn btn-outline-light waves-effect fix-pd-container" data-toggle="modal" data-target="#basicExampleModal"
-        style="width:130px; border-radius: 20px; margin-right: 20px; margin-left: 20px;"
-        mdbWavesEffect>สมัครสมาชิก</button>
+        <app-register-modal></app-register-modal>
     </li>
     <li class="navbar-item">
         <button type="button" class="btn btn-outline-light waves-effect fix-pd-container"
@@ -228,9 +226,11 @@
   <!-- Copyright -->
 
 </footer>
+<!-- Footer -->
 
-<div mdbModal #frame="mdbModal" class="modal fade top" id="LoginModal" tabindex="-1" role="dialog"
-     aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top: 60px">
+<!-- Login -->
+<div mdbModal #frame="mdbModal" class="modal fade bottom" id="LoginModal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <!--Content-->
     <div class="modal-content form-elegant" style="border-radius: 20px;">
@@ -280,17 +280,18 @@
                     <a href="#" class="w3-button w-100 text-white">ล็อคอิน</a>
                 </button>
             </div>
-          </div>
+        </div>
 
         <div class="text-center mb-3">
           <button type="button" mdbBtn gradient="blue" block="true" class="z-depth-1a waves-light"
                   mdbWavesEffect>เข้าสู่ระบบด้วย Facebook
           </button>
         </div>
-        </div>
+      </div>
+    </div>
     <!--/.Content-->
   </div>
 </div>
-<!-- Footer -->
 
+<!-- Register -->
 <!-- <router-outlet></router-outlet> -->

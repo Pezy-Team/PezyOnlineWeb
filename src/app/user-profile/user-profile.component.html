@@ -1,0 +1,66 @@
+<button type="button" class="btn btn-outline-light waves-effect fix-pd-container" data-toggle="modal" data-target="#basicExampleModal"
+        style="width:130px; border-radius: 20px; margin-right: 20px; margin-left: 20px;"
+        mdbWavesEffect>สมัครสมาชิก</button>
+
+<div mdbModal #frame="mdbModal" class="modal fade bottom" id="LoginModal" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top: 60px">
+  <div class="modal-dialog" role="document">
+    <!--Content-->
+    <div class="modal-content form-elegant" style="border-radius: 20px;">
+      <!--Header-->
+      <div class="modal-header text-center">
+        <h3 class="modal-title w-100 text-white font-weight-bold my-3" id="myModalLabel">
+          <strong>เข้าสู่ระบบ</strong>
+        </h3>
+      </div>
+      <!--Body-->
+      <div class="modal-body mx-4">
+        <!--Body-->
+        <div class="form-group mb-5">
+            <input type="email" placeholder="ชื่อผู้ใช้/email" id="Form-email1" class="form-control" style="border-radius: 8px;">
+          <mdb-error
+            *ngIf="modalFormElegantEmail.invalid && (modalFormElegantEmail.dirty || modalFormElegantEmail.touched)">
+            Input invalid
+          </mdb-error>
+          <mdb-success
+            *ngIf="modalFormElegantEmail.valid && (modalFormElegantEmail.dirty || modalFormElegantEmail.touched)">Input
+            valid
+          </mdb-success>
+        </div>
+
+        <div class="form-group pb-3">
+            <input mdbInput type="password" placeholder="รหัสผ่าน" id="Form-pass1" class="form-control validate" style="border-radius: 8px;">
+          <mdb-error
+            *ngIf="modalFormElegantPassword.invalid && (modalFormElegantPassword.dirty || modalFormElegantPassword.touched)">
+            Input invalid
+          </mdb-error>
+          <mdb-success
+            *ngIf="modalFormElegantPassword.valid && (modalFormElegantPassword.dirty || modalFormElegantPassword.touched)">
+            Input valid
+          </mdb-success>
+          <br>
+          <p class="font-small d-flex justify-content-end">
+            <a href="#" class="ml-1 text-light">ลืมรหัสผ่าน ?</a>
+          </p>
+        </div>
+
+        <div class="form-row mb-4">
+            <div class="col-lg-6">
+              <button type="button" mdbBtn color="warning" block="true" class="z-depth-1a waves-light" style="width: 100%;" mdbWavesEffect>สมัครสมาชิก</button>
+            </div>
+            <div class="col-lg-6">
+                <button type="button" mdbBtn color="warning" block="true" class="z-depth-1a waves-light" style="width: 100%;" mdbWavesEffect>
+                    <a href="#" class="w3-button w-100 text-white">ล็อคอิน</a>
+                </button>
+            </div>
+          </div>
+
+        <div class="text-center mb-3">
+          <button type="button" mdbBtn gradient="blue" block="true" class="z-depth-1a waves-light"
+                  mdbWavesEffect>เข้าสู่ระบบด้วย Facebook
+          </button>
+        </div>
+        </div>
+    <!--/.Content-->
+  </div>
+</div>
